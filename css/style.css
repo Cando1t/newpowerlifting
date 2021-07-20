@@ -1,0 +1,46 @@
+.header {
+    margin: 0;
+    background-color: grey;
+    height: 150px;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+main {
+    /* border: 5px solid red; */
+    position: relative;
+}
+
+.center {
+    background-color: lightgreen;    
+    height: 800px;
+}
+
+.center__content {
+    background-color: #001;
+}
+
+.footer {
+    background-color: lightgrey;
+    height: 150px;
+}
+
+.center__channels {
+    border: 2px solid red;
+    height: 800px;
+}
+
+.center__live {
+    border: 2px solid orange;
+    height: 600px;
+}
+
+.center__banner {
+    border: 2px solid purple;
+    height: 200px;
+}
+
+.center__chat {
+    border: 2px solid yellowgreen;
+    height: 800px;
+}
