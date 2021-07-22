@@ -1,46 +1,43 @@
-.header {
-    margin: 0;
-    background-color: grey;
-    height: 150px;
-    width: 100%;
-    /* border: 2px solid red; */
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
-main {
-    /* border: 5px solid red; */
-    position: relative;
+.headerr {
+    background-color: #000;
+    height: 100px;
+    color: white;
+    font-size: 40px;    
 }
 
 .center {
-    background-color: lightgreen;    
+    height: 800px;
+    position: relative;
+}
+
+.channels {    
+    background-color: khaki;
     height: 800px;
 }
 
-.center__content {
-    background-color: #001;
-}
-
-.footer {
-    background-color: lightgrey;
-    height: 150px;
-}
-
-.center__channels {
-    border: 2px solid red;
-    height: 800px;
-}
-
-.center__live {
-    border: 2px solid orange;
+.live {
+    background-color: lightblue;
     height: 600px;
 }
 
-.center__banner {
-    border: 2px solid purple;
+.banner {
+    background-color: red;
     height: 200px;
+    position: absolute;
+    bottom: 0;
 }
 
-.center__chat {
-    border: 2px solid yellowgreen;
+.chat {
+    background-color: lightseagreen;
     height: 800px;
+    
+}
+
+.footer {
+    background-color: saddlebrown;
+    height: 150px;
 }
